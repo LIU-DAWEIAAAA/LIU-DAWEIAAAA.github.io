@@ -24,7 +24,7 @@
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
   
-    <link rel="icon" href="/assets/favicon.png">
+    <link rel="icon" href="/assets/favicon.jpg">
   
   <link rel="stylesheet" type="text/css" href="/./main.0cf68a.css">
   <style type="text/css">
@@ -185,12 +185,16 @@
 		  </a>
 		
 		<!--显示阅读次数完毕-->
+		  
+		  
         
         
 <a href="/2020/03/09/hello-world/" class="archive-article-date">
   	<time datetime="2020-03-09T01:39:49.982Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-09</time>
 </a>
         
+		  
+		  
       </header>
     
     <div class="article-entry" itemprop="articleBody">
@@ -212,7 +216,16 @@
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 
       
+		
+		<!-- 增加版权声明 -->
 
+		
+		
+		  <div class="declare" hidden="hidden"></div>
+		
+
+		<!-- 增加版权声明结束 -->
+		
       
         <div class="page-reward">
           <a href="javascript:;" class="page-reward-btn tooltip-top">
@@ -380,39 +393,6 @@
 
 
 
-  
-      <section id="comments" class="comments">
-        <style>
-          .comments{margin:30px;padding:10px;background:#fff}
-          @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
-        </style>
-        
-
-<div id="vcomment" class="comment"></div>
-<!--����js����</body>֮ǰ���뼴��-->
-<!--Leancloud ������:-->
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<!--Valine �ĺ��Ĵ����-->
-<script src="//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script>
-<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script>
-    var notify = 'true' == true ? true : false;
-    var verify = 'true' == true ? true : false;
-    new Valine({
-        av: AV,
-        el: '#vcomment',
-        notify: notify,
-        app_id: "ayIybcKtDURqMg91YFCU24Ht-gzGzoHsz",
-        app_key: "4L5lTkne2q7XrRVXSBnaxNNS",
-        placeholder: "ヾﾉ≧∀≦)o来啊，快活啊!",
-        avatar:"identicon",
-    });
-</script>
-
-
-    </section>
-  
-
 
           </div>
         </div>
@@ -420,6 +400,9 @@
       <footer id="footer">
   <div class="outer">
     <div id="footer-info">
+		<div>
+	   		<span id="timeDate">载入天数...</span><span id="times">载入时分秒...</span> 
+		</div>
     	<div class="footer-left">
     		&copy; 2020 David LIU
     	</div>
@@ -428,8 +411,26 @@
       	</div>
 		
     </div>
-	  <script type="text/javascript">document.write(unescape("%3Cspan id='cnzz_stat_icon_1278670540'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1278670540%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+	  <script type="text/javascript">
+		  document.write(unescape("%3Cspan id='cnzz_stat_icon_1278670540'%3E%3C/span%3E%3Cscript src='https://s4.cnzz.com/z_stat.php%3Fid%3D1278670540%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));
+	  </script>
 	  
+    <script>
+        var now = new Date(); 
+        function createtime() { 
+            var grt= new Date("03/09/2020 22:05:20");//此处修改你的建站时间或者网站上线时间 
+            now.setTime(now.getTime()+250); 
+            days = (now - grt ) / 1000 / 60 / 60 / 24; dnum = Math.floor(days); 
+            hours = (now - grt ) / 1000 / 60 / 60 - (24 * dnum); hnum = Math.floor(hours); 
+            if(String(hnum).length ==1 ){hnum = "0" + hnum;} minutes = (now - grt ) / 1000 /60 - (24 * 60 * dnum) - (60 * hnum); 
+            mnum = Math.floor(minutes); if(String(mnum).length ==1 ){mnum = "0" + mnum;} 
+            seconds = (now - grt ) / 1000 - (24 * 60 * 60 * dnum) - (60 * 60 * hnum) - (60 * mnum); 
+            snum = Math.round(seconds); if(String(snum).length ==1 ){snum = "0" + snum;} 
+            document.getElementById("timeDate").innerHTML = "本站已安全运行 "+dnum+" 天 "; 
+            document.getElementById("times").innerHTML = hnum + " 小时 " + mnum + " 分 " + snum + " 秒"; 
+        } 
+    setInterval("createtime()",250);
+    </script>
 	 
   </div>
 	
@@ -673,5 +674,29 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
 
 </div>
   </div>
-</body>
+	<!-- 《页面点击小红心 -->
+
+    <script type="text/javascript" src="/js/love.js"></script>
+
+<!-- 页面点击小红心》 -->
+
+	
+	<!--动态线条背景-->
+
+    <script type="text/javascript" color="0,0,0" opacity="0.5" 
+        zIndex="0" count="99" 
+        src="/js/canvas-nest.js">
+    </script>
+
+
+	<!--彩带1.点击自动替换彩带-->
+
+    <!-- <script src="https://g.joyinshare.com/hc/ribbon.min.js" type="text/javascript"></script> -->
+    <script type="text/javascript" src="/js/ribbon.js"></script>
+
+
+
+<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":160,"height":348,"hOffset":210,"vOffset":-60},"mobile":{"show":false},"react":null,"opacity":0.7});</script></body>
 </html>
+
+
