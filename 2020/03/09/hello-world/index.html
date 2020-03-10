@@ -386,24 +386,26 @@
           .comments{margin:30px;padding:10px;background:#fff}
           @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
         </style>
-        <div class="valine_comment"></div>
+        
+
+<div id="vcomment" class="comment"></div>
 <!--����js����</body>֮ǰ���뼴��-->
 <!--Leancloud ������:-->
 <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
 <!--Valine �ĺ��Ĵ����-->
 <script src="//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
-  var notify = 'true' == true ? true : false;
-  var verify = 'true' == true ? true : false;
-  new Valine({
-      // AV ����������������av-min.js(��˾���ǲ�Ҫ����??�a����������)
-      av: AV,
-      el: '.valine_comment',
-      emoticon_url: 'https://cloud.panjunwen.com/alu',
-      emoticon_list: ["��.png","��˵��.png","��.png","����.png","�׻�.png","������.png","�е�.png","����.png","��ü.png","С�۾�.png","���ع۲�.png"],
-      app_id: '你在注册时候得到的id',
-      app_key: '你在注册时候得到的key',
-      placeholder: 'ヾﾉ≧∀≦)o来啊，快活啊!'
+    var notify = 'true' == true ? true : false;
+    var verify = 'true' == true ? true : false;
+    new Valine({
+        av: AV,
+        el: '#vcomment',
+        notify: notify,
+        app_id: "ayIybcKtDURqMg91YFCU24Ht-gzGzoHsz",
+        app_key: "4L5lTkne2q7XrRVXSBnaxNNS",
+        placeholder: "ヾﾉ≧∀≦)o来啊，快活啊!",
+        avatar:"identicon",
     });
 </script>
 
