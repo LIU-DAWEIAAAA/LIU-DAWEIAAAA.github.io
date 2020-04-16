@@ -34,13 +34,51 @@
 
   
 
+	
+	<!-- Js控制Loding特效 2020年4月16日17:58:11-->
+<script>
+  //监听加载状态改变
+  document.onreadystatechange = completeLoading;
+  
+  //加载状态为complete时移除loading效果
+  function completeLoading() {
+      if (document.readyState == "complete") {
+          var loadingMask = document.getElementById('loader-wrapper');
+          loadingMask.parentNode.removeChild(loadingMask);
+      }
+  }  
+</script>
+<!-- loading结束 -->
 <meta name="generator" content="Hexo 4.2.0"></head>
 
 <body>
 	
-
+	<!-- 加载动画 2020年4月16日17:57:23 -->
+	<div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+    <!-- <div class="load_title">Loading. . .<br></div> -->
+</div>
+	
 	<!-- 正常布局 -->
   <div id="container" q-class="show:isCtnShow">
+	  
+	  <!-- 添加小标签fork github -->
+	  <a class="fork" href="https://github.com/LIU-DAWEIAAAA" target="_blank" rel="noopener"><img width="149" height="149" src="https://github.blog/wp-content/uploads/2008/12/forkme_right_darkblue_121621.png?resize=149%2C149" class="attachment-full size-full" alt="Fork me on GitHub" data-recalc-dims="1"></a>
+	  
+<style>
+    .fork{display:none;}
+    .fork{position:fixed;
+             z-index:999;
+             top:0;
+             right:.5em
+    }
+    @media(min-width:768px){.fork{display:inline;}}
+</style>
+<!--/* 屏幕宽于768px时才显示 */-->
+<!-- 就是在原代码的基础上，a标签加上style，并且href的“https://github.com/you”改成你的项目地址就行 -->
+	  
     <canvas id="anm-canvas" class="anm-canvas"></canvas>
     <div class="left-col" q-class="show:isShow">
       
