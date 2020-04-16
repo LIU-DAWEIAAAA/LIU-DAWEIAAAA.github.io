@@ -4,6 +4,7 @@ menu:
   主页: /
   随笔: /tags/随笔/
   归档:  /archives/index.html
+  个人简历: "https://liu-daweiaaaa.github.io/resume/"
 # SubNav
 subnav:
   #github: "#"
@@ -47,7 +48,11 @@ reward_type: 2
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
-alipay: /assets/Alipay.jpg
+
+# gitee "/assets/Alipay.jpg"
+# github /assets/Alipay.jpg
+
+alipay: "/assets/Alipay.jpg"
 # 微信二维码图片地址
 weixin: 
 
@@ -65,10 +70,11 @@ top: true
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /assets/favicon.jpg
+favicon: "/assets/favicon.jpg"
 
 #你的头像url
-avatar: /assets/Header.jpg
+# avatar: "/assets/Header.jpg"
+avatar:  "/assets/Header.jpg"
 
 #是否开启分享
 share_jia: true
@@ -100,6 +106,7 @@ gitment_oauth:
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
+  # header: '#4d4d4d'
   header: '#4d4d4d'
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
@@ -169,4 +176,4 @@ canvas_nest:
   count: '99' # 动态背景中线条数量
 
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 南通大学本科生<br><br>地理信息科学专业<br><br>谢谢访问

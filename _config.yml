@@ -13,8 +13,19 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+
+# github
+# url: http://yoursite.com
+# root: /
+
+# gitee
+# url: http://davidliu999.gitee.io/myblog
+# root: /myblog/
+# 注意：gitee部署后需要手动点击更新 否则不生效
+
 url: http://yoursite.com
 root: /
+
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -99,6 +110,11 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
+  
+  # 地址
+  # github: git@github.com:LIU-DAWEIAAAA/LIU-DAWEIAAAA.github.io.git
+  # gitee: https://gitee.com/davidliu999/MyBlog.git
+  
   repo: git@github.com:LIU-DAWEIAAAA/LIU-DAWEIAAAA.github.io.git
   branch: master
   
