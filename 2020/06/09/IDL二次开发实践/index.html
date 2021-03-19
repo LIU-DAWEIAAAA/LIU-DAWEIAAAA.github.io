@@ -7,15 +7,31 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2020/6 | Hexo</title>
+  <title>IDL二次开发实践 | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://yoursite.com/archives/2020/06/index.html">
+  <meta name="description" content="IDL二次开发实践一、实践选题介绍1.1 研究主题常州市区2000年、2004年及2008年间植被覆盖度动态变化监测分析 1.2 研究内容植被作为全球生态系统中重要的组成部分之一,在生态保护、维持生态稳定以及改善社会环境方面有着不可替代的作用, 而遥感植被指数能够在一定程度上反映植被的密度和光合能力, 可以用于监测广大地区的植被动态。中国幅员辽阔、地形复杂,再加上近年来工业化的快速发展, 人口的快">
+<meta property="og:type" content="article">
+<meta property="og:title" content="IDL二次开发实践">
+<meta property="og:url" content="http://yoursite.com/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="IDL二次开发实践一、实践选题介绍1.1 研究主题常州市区2000年、2004年及2008年间植被覆盖度动态变化监测分析 1.2 研究内容植被作为全球生态系统中重要的组成部分之一,在生态保护、维持生态稳定以及改善社会环境方面有着不可替代的作用, 而遥感植被指数能够在一定程度上反映植被的密度和光合能力, 可以用于监测广大地区的植被动态。中国幅员辽阔、地形复杂,再加上近年来工业化的快速发展, 人口的快">
 <meta property="og:locale" content="en_US">
+<meta property="og:image" content="http://yoursite.com/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E6%B5%81%E7%A8%8B%E5%9B%BE.PNG">
+<meta property="og:image" content="http://yoursite.com/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E8%BE%90%E5%B0%84%E5%AE%9A%E6%A0%87.PNG">
+<meta property="og:image" content="http://yoursite.com/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3.PNG">
+<meta property="og:image" content="http://yoursite.com/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/NDVI%E8%AE%A1%E7%AE%97.PNG">
+<meta property="og:image" content="http://yoursite.com/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/NDVI%E8%AE%A1%E7%AE%97.PNG">
+<meta property="og:image" content="http://yoursite.com/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E9%87%8D%E5%88%86%E7%B1%BB1.PNG">
+<meta property="og:image" content="http://yoursite.com/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E6%A0%85%E6%A0%BC%E8%AE%A1%E7%AE%97%E4%B8%8E%E9%87%8D%E5%88%86%E7%B1%BB.PNG">
+<meta property="og:image" content="http://yoursite.com/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E9%87%8D%E5%88%86%E7%B1%BB%E7%BB%93%E6%9E%9C%E5%9B%BE1.PNG">
+<meta property="article:published_time" content="2020-06-09T10:41:24.000Z">
+<meta property="article:modified_time" content="2021-03-19T12:19:29.449Z">
 <meta property="article:author" content="David LIU">
+<meta property="article:tag" content="学习记录">
+<meta property="article:tag" content="IDL">
+<meta property="article:tag" content="ENVI">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://yoursite.com/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E6%B5%81%E7%A8%8B%E5%9B%BE.PNG">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
   
@@ -229,79 +245,218 @@
           </div>
           <div id="js-content" class="content-ll">
             
-  
-  
+<article id="post-IDL二次开发实践" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
-<a href="/2020/06/10/%E9%AB%98%E7%BA%A7%E5%9C%B0%E7%90%86%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/" class="archive-article-date">
-  	<time datetime="2020-06-10T05:43:04.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-10</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/06/10/%E9%AB%98%E7%BA%A7%E5%9C%B0%E7%90%86%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/">高级地理信息系统课程实验</a>
+    <h1 class="article-title" itemprop="name">
+      IDL二次开发实践
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">学习记录</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">C#</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	
+		 
+		 <!--显示阅读次数-->
+		
+		  <br/>
+		  <a class="cloud-tie-join-count" href="javascript:void(0);" style="color:gray;font-size:14px;">
+		  <span class="icon-sort"></span>
+		  <span id="busuanzi_container_page_pv" style="color:#ef7522;font-size:14px;">
+					阅读数: <span id="busuanzi_value_page_pv"></span>次 &nbsp;&nbsp;
+		  </span>
+		  </a>
+		
+		<!--显示阅读次数完毕-->
+        
+        
 <a href="/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/" class="archive-article-date">
   	<time datetime="2020-06-09T10:41:24.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-09</time>
 </a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/">IDL二次开发实践</a>
-    </h1>
-  
+        
+		  
+		  
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="IDL二次开发实践"><a href="#IDL二次开发实践" class="headerlink" title="IDL二次开发实践"></a>IDL二次开发实践</h1><h2 id="一、实践选题介绍"><a href="#一、实践选题介绍" class="headerlink" title="一、实践选题介绍"></a>一、实践选题介绍</h2><h3 id="1-1-研究主题"><a href="#1-1-研究主题" class="headerlink" title="1.1 研究主题"></a>1.1 研究主题</h3><p>常州市区2000年、2004年及2008年间植被覆盖度动态变化监测分析</p>
+<h3 id="1-2-研究内容"><a href="#1-2-研究内容" class="headerlink" title="1.2 研究内容"></a>1.2 研究内容</h3><p>植被作为全球生态系统中重要的组成部分之一,在生态保护、维持生态稳定以及改善社会环境方面有着不可替代的作用, 而遥感植被指数能够在一定程度上反映植被的密度和光合能力, 可以用于监测广大地区的植被动态。中国幅员辽阔、地形复杂,再加上近年来工业化的快速发展, 人口的快速增长,城市扩张等, 植被覆盖的稳定性大大降低, 引发了一系列的自然生态问题。植被覆盖度(FVC, FractionalVegetation Cover)是指植被(包括叶、茎、枝)在地面的垂直投影面积占统计区总面积的百分比。它是描述植物群落表明状况的综合定量指标, 直接构成了生态系统的重要基础数据, 植被覆盖度与生态系统之间存在正相关关系。目前有关植被覆盖度变化监测的方法大量涌现, 而像元分解模型估算法应用的较为普遍, 植被覆盖的变化不仅可以监测环境、水文、生态、全球变化等, 而且它还是衡量区域生态系统环境的重要指标。</p>
+<a id="more"></a>
 
-        <div class="article-info info-on-right">
-          
+<h3 id="1-3-数据来源"><a href="#1-3-数据来源" class="headerlink" title="1.3 数据来源"></a>1.3 数据来源</h3><p>本研究利用2000——2008年的3期美国LandsatTM/OLI卫星遥感影像作为数据源（空间分辨率为30m），数据来源你为中科院地理空间数据云（<a href="http://www.gscloud.cn/" target="_blank" rel="noopener">http://www.gscloud.cn/</a> ）。常州市区地处一幅遥感影像上，每一期遥感影像图的行列标号为（119,38）。为了保证影像的质量，选取5——8月份的影像且影像含云量均低于10%，因为此时影像是地物信息清晰，植被覆盖最为明显。本次实践主要通过IDL编写程序，对所有影像进行辐射校正、大气校正、计算归一化植被指数、计算植被覆盖指数和划分植被覆盖等级。</p>
+<p>表 1 LandsatTM 传感器的主要参数</p>
+<table>
+<thead>
+<tr>
+<th>Band name</th>
+<th>Band width/um</th>
+<th>Resolution/m</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Band1 Blue</td>
+<td>0.45-0.52</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Band2 Green</td>
+<td>0.52-0.60</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Band3 Red</td>
+<td>0.63-0.69</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Band4 NIR</td>
+<td>0.76-0.90</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Band5 SWIR1</td>
+<td>1.55-1.75</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Band6 SWIR2</td>
+<td>2.11-2.29</td>
+<td>120</td>
+</tr>
+<tr>
+<td>Band7 Mid-IR</td>
+<td>0.50-0.68</td>
+<td>30</td>
+</tr>
+</tbody></table>
+<h3 id="1-4-实验技术路线"><a href="#1-4-实验技术路线" class="headerlink" title="1.4 实验技术路线"></a>1.4 实验技术路线</h3><p>1.首先对遥感影像进行辐射定标。方法为调用ENVITask（’RadiometricCalibration’），利用下载影像所得文件中后缀名为MTL.txt的文件进行辐射定标。 </p>
+<p>2.对辐射定标后的遥感影像进行裁剪。方法为调用ENVI_MASK_DOIT获取掩膜创建ROI区域对遥感影像进行裁剪。</p>
+<p>3.对完成辐射定标与裁剪的遥感影像进行大气校正。方法为调用ENVITask(‘QUAC’)，输如传感器参数为Task.SENSOR = ‘Landsat TM/ETM/OLI’进行辐射定标。</p>
+<p>4.对遥感影像进行归一化植被指数计算。方法为调用ENVI_DOIT的NDVI_DOIT并输入对应参数，完成归一化植被指数的计算。</p>
+<p>5.对完成NDVI计算的遥感影像进行植被覆盖度指数的计算，计算公式为VFC = (NDVI - NDVImin)/ ( NDVImax - NDVImin)，通过调用ENVIRasterStatistics功能获取遥感影像的最大最小亮度值从而进行计算。</p>
+<p>6.对完成植被覆盖度计算的遥感影像依据参考文献标注进行重分类。</p>
+<p>7.在Excel中对遥感影像植被覆盖度的面积进行统计，并计算其2000——2004年与2004——2008年间的变化量。</p>
+<p>8.在ArcGIS中完成2000、2004、2008年植被覆盖度分布与变化专题地图的制作。</p>
+<img src="/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E6%B5%81%E7%A8%8B%E5%9B%BE.PNG" class>
+
+
+<h2 id="二、IDL代码编程实现"><a href="#二、IDL代码编程实现" class="headerlink" title="二、IDL代码编程实现"></a>二、IDL代码编程实现</h2><h3 id="2-1-遥感影像数据进行辐射定标（同时完成波段合成）"><a href="#2-1-遥感影像数据进行辐射定标（同时完成波段合成）" class="headerlink" title="2.1 遥感影像数据进行辐射定标（同时完成波段合成）"></a>2.1 遥感影像数据进行辐射定标（同时完成波段合成）</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">;辐射定标20200102</span><br><span class="line">  COMPILE_OPT IDL2</span><br><span class="line">  e &#x3D;ENVI()</span><br><span class="line">  ;输入需要的参数，输入的地址</span><br><span class="line">  FName &#x3D; (&#39;D:\IDLData\TM5\20080705\LT51190382008187BJC00_MTL.txt&#39;)</span><br><span class="line">  ;输出结果的地址和文件名</span><br><span class="line">  SName &#x3D; (&#39;D:\IDLData\TM5\FSDB\FSDB20080705.img&#39;)</span><br><span class="line">  Raster&#x3D;e.OpenRaster(FName)</span><br><span class="line">  ;从ENVI任务目录中获取辐射定标任务</span><br><span class="line">  Task&#x3D;ENVITask(&#39;RadiometricCalibration&#39;)</span><br><span class="line">  ;输入光栅（必需）指定要在其上执行辐射定标的光栅。</span><br><span class="line">  Task.Input_Raster&#x3D;Raster[0];0就是获取所有波段</span><br><span class="line">  ;输出数据类型（可选）指定一个字符串，指示输出数据类型：</span><br><span class="line">  Task.Output_Data_Type&#x3D;&#39;Float&#39;</span><br><span class="line">  ;输出光栅URI（必需）</span><br><span class="line">  ;使用关联输出光栅的完全限定文件名和路径指定字符串。如果未指定此属性，或将其设置为感叹号（！），将创建一个临时文件。</span><br><span class="line">  Task_Output_Raster_URI&#x3D; SName</span><br><span class="line">  ;设置运行条件 如果输出光栅URL已存在 删除存在文件 创建新的输出光栅</span><br><span class="line">  if FILE_TEST(Task_Output_Raster_URI) then FILE_DELETE,Task_Output_Raster_URI</span><br><span class="line">  Task.SCALE_FACTOR&#x3D;0.1</span><br><span class="line">  Task.Execute</span><br><span class="line">  Task.Output_Raster.Export,Task_Output_Raster_URI,&#39;ENVI&#39;,INTERLEAVE&#x3D;&#39;BIL&#39;</span><br><span class="line">  print,&#39;finish!&#39;</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+<p>辐射定标流程图</p>
+<img src="/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E8%BE%90%E5%B0%84%E5%AE%9A%E6%A0%87.PNG" class>
+
+<p>程序说明：在进行辐射定标的操作中，输入参数获取_MTL.txt文件，即可同时完成波段合成与辐射定标操作。</p>
+<h3 id="2-2-遥感影像数据的大气校正（QUAC）"><a href="#2-2-遥感影像数据的大气校正（QUAC）" class="headerlink" title="2.2 遥感影像数据的大气校正（QUAC）"></a>2.2 遥感影像数据的大气校正（QUAC）</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">pro ENVI_QUAC_DOIT_demo</span><br><span class="line">;大气校正 20200102</span><br><span class="line">;如果对整个影像进行大气校正，数据量较大，先进行裁剪，于是再进行大气校正</span><br><span class="line">  compile_opt idl2</span><br><span class="line">  e&#x3D;envi()</span><br><span class="line">  ;打开影像 获得路径 文件</span><br><span class="line">  Fname &#x3D; ENVI_PICKFILE(TITLE&#x3D;&#39;选择影像&#39;,PATH&#x3D;&#39;D:\IDLData\TM5\FSDB\&#39;,FILTER&#x3D;&#39;*.img&#39;)</span><br><span class="line">  ;输出文件命名与输出文件路径</span><br><span class="line">  FName_out&#x3D;ENVI_PICKFILE(TITLE&#x3D;&#39;请输入裁剪后图像的保存路径&#39;,FILTER&#x3D;&#39;*.img&#39;,&#x2F;OUTPUT)</span><br><span class="line">  ;打开raster文件</span><br><span class="line">  Raster&#x3D;e.OpenRaster(Fname)</span><br><span class="line">  ;调用ENVITask工具 参考书p134 输入参数</span><br><span class="line">  Task &#x3D; ENVITask(&#39;QUAC&#39;)</span><br><span class="line">  ;输入光栅（必需）指定要在其上执行大气校正的光栅。</span><br><span class="line">  Task.INPUT_RASTER &#x3D; Raster</span><br><span class="line">  ;传感器（可选）指定以下字符串之一，指示输入光栅的传感器类型：</span><br><span class="line">  Task.SENSOR &#x3D; &#39;Landsat TM&#x2F;ETM&#x2F;OLI&#39;</span><br><span class="line">  ;输出光栅URI（可选）使用完全限定的文件名和路径指定字符串以导出关联的输出光栅。</span><br><span class="line">  Task.OUTPUT_RASTER_URI &#x3D; e.GetTemporaryFilename()</span><br><span class="line">  Task.OUTPUT_RASTER_URI&#x3D;FName_out</span><br><span class="line">  Task.Execute</span><br><span class="line">  ;获取数据管理器中当前可用数据对象的集合</span><br><span class="line">  DataColl &#x3D; e.Data</span><br><span class="line">  ;将输出添加到数据管理器</span><br><span class="line">  DataColl.Add, Task.OUTPUT_RASTER</span><br><span class="line">  print,&#39;Finish!&#39;</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+<p>大气校正流程图</p>
+<img src="/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E5%A4%A7%E6%B0%94%E6%A0%A1%E6%AD%A3.PNG" class>
+
+<p>程序说明：由于对整幅影像进行大气校正计算量较大，可以先进行裁剪再进行大气校正计算。</p>
+<h4 id="2-2-1-遥感影像的大气校正（FLAASH）"><a href="#2-2-1-遥感影像的大气校正（FLAASH）" class="headerlink" title="2.2.1 遥感影像的大气校正（FLAASH）"></a>2.2.1 遥感影像的大气校正（FLAASH）</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br></pre></td><td class="code"><pre><span class="line">pro flash_demo</span><br><span class="line">  ;功能：大气校正</span><br><span class="line">  COMPILE_OPT idl2</span><br><span class="line">  e&#x3D;envi()</span><br><span class="line"></span><br><span class="line">  ;获取源码所在文件</span><br><span class="line">  FName&#x3D;[&#39;1991_radiometric_calibration.img&#39;,$</span><br><span class="line">    &#39;2001_radiometric_calibration.img&#39;,$</span><br><span class="line">    &#39;2008_radiometric_calibration.img&#39;,$</span><br><span class="line">    &#39;2018_radiometric_calibration.img&#39;]</span><br><span class="line">  SName&#x3D;[&#39;1991_flash.img&#39;,$</span><br><span class="line">    &#39;2001_flash.img&#39;,$</span><br><span class="line">    &#39;2008_flash.img&#39;,$</span><br><span class="line">    &#39;2018_flash.img&#39;]</span><br><span class="line">  ;输入多光谱辐射亮度数据</span><br><span class="line">  for j&#x3D;0,3 do begin</span><br><span class="line">    Path &#x3D; FILE_DIRNAME(ROUTINE_FILEPATH())+PATH_SEP()</span><br><span class="line">    radiance_file &#x3D; FILEPATH(FName[j], $</span><br><span class="line">      root_dir&#x3D;Path, subdirectory&#x3D;[&#39;radiometric_calibration&#39;])</span><br><span class="line"></span><br><span class="line">    ;大气校正输出结果文件路径</span><br><span class="line">    reflect_file &#x3D; FILEPATH(SName[j], $</span><br><span class="line">      root_dir&#x3D;Path, subdirectory&#x3D;[&#39;radiometric_calibration&#39;])</span><br><span class="line"></span><br><span class="line">    ;打开栅格数据，获取元数据信息</span><br><span class="line">    raster &#x3D; e.OpenRaster(radiance_file)</span><br><span class="line"></span><br><span class="line">    ;数据信息</span><br><span class="line">    nspatial &#x3D; raster.nColumns   ;列数</span><br><span class="line">    nlines &#x3D; raster.nRows        ;行数</span><br><span class="line">    fid &#x3D; ENVIRasterToFID(raster)</span><br><span class="line">    ENVI_FILE_QUERY, fid, data_type&#x3D;data_type  ;数据类型</span><br><span class="line"></span><br><span class="line">    ;获取输入文件后缀 （.dat）</span><br><span class="line">    exten &#x3D; stregex(radiance_file, &#39;\..+$&#39;, &#x2F;extract)</span><br><span class="line">    ;对应 Rootname for FLAASH files 参数，设置为 Landsat_8_OLI_Rad_</span><br><span class="line">    user_stem_name &#x3D; FILE_BASENAME(radiance_file, exten)+&#39;_&#39;</span><br><span class="line"></span><br><span class="line">    ;对应 Output Directory for FLAASH Files 参数</span><br><span class="line">    ;使用输出路径作为临时路径（不建议使用系统临时路径）</span><br><span class="line">    modtran_directory &#x3D; Path+&#39;flash&#39;</span><br><span class="line"></span><br><span class="line">    ;获取光谱响应函数路径</span><br><span class="line">    filter_func_filename &#x3D; FILEPATH(&#39;landsat8_oli.sli&#39;, $</span><br><span class="line">      root_dir&#x3D;e.root_dir, subdirectory&#x3D;[&#39;resource&#39;,&#39;filterfuncs&#39;])</span><br><span class="line"></span><br><span class="line">    ;获取时间信息</span><br><span class="line">    IF OBJ_VALID(raster.Time) THEN BEGIN</span><br><span class="line">      ;如果元数据中有时间信息，则自动获取</span><br><span class="line">      tmpTimes &#x3D; STRSPLIT(raster.Time.ACQUISITION, &#39;-T:Z&#39;, &#x2F;extract)</span><br><span class="line">      year &#x3D; FIX(tmpTimes[0])</span><br><span class="line">      month &#x3D; FIX(tmpTimes[1])</span><br><span class="line">      day &#x3D; FIX(tmpTimes[2])</span><br><span class="line">      gmt &#x3D; DOUBLE(tmpTimes[3]) + $</span><br><span class="line">        DOUBLE(tmpTimes[4])&#x2F;60D + DOUBLE(tmpTimes[5])&#x2F;60D^2</span><br><span class="line">    ENDIF ELSE BEGIN</span><br><span class="line">      ;如果元数据中没有，则手动设置</span><br><span class="line">      year &#x3D; 2013</span><br><span class="line">      month &#x3D; 10</span><br><span class="line">      day &#x3D; 3</span><br><span class="line">      gmt &#x3D; 2.923418</span><br><span class="line">    ENDELSE</span><br><span class="line"></span><br><span class="line">    ;坐标信息</span><br><span class="line">    ref &#x3D; raster.SPATIALREF</span><br><span class="line">    IF ref NE !NULL THEN BEGIN</span><br><span class="line">      ;如果有坐标系，则自动获取经纬度、分辨率</span><br><span class="line">      pixel_size &#x3D; (ref.pixel_size)[0]</span><br><span class="line">      ref.ConvertFileToMap, nspatial&#x2F;2, nlines&#x2F;2, MapX, MapY</span><br><span class="line">      ref.ConvertMapToLonLat, MapX, MapY, longitude, latitude</span><br><span class="line">    ENDIF ELSE BEGIN</span><br><span class="line">      ;如果没有坐标系，则手动设置</span><br><span class="line">      pixel_size &#x3D; 30.0</span><br><span class="line">      longitude &#x3D; 117.08846</span><br><span class="line">      latitude &#x3D; 40.506906</span><br><span class="line">    ENDELSE</span><br><span class="line"></span><br><span class="line">    ;获取波长信息</span><br><span class="line">    metadata &#x3D; Raster.Metadata</span><br><span class="line">    wavelength_units &#x3D; metadata[&#39;WAVELENGTH UNITS&#39;]</span><br><span class="line">    lambda &#x3D; metadata[&#39;WAVELENGTH&#39;]</span><br><span class="line">    ;fwhm如果没有，可设置值全部为-1，</span><br><span class="line">    ;例如4个波段的多光谱数据，设置为[-1.0, -1.0, -1.0, -1.0]</span><br><span class="line">    IF metadata.HasTag(&#39;FWHM&#39;) THEN $</span><br><span class="line">      fwhm &#x3D; metadata[&#39;FWHM&#39;] $</span><br><span class="line">    ELSE fwhm &#x3D; DBLARR(raster.nBands)-1.0</span><br><span class="line"></span><br><span class="line">    ;缩放系数，如果定标时设置了FLAASH Setting，则设置value&#x3D;1.0即可。</span><br><span class="line">    input_scale &#x3D; MAKE_ARRAY(raster.nbands, value&#x3D;1.0, &#x2F;double)</span><br><span class="line"></span><br><span class="line">    ;初始化FLAASH对象</span><br><span class="line">    ;可选关键字如下：</span><br><span class="line">    ; rad_remove FLAASH执行完毕后，自动关闭输入文件</span><br><span class="line">    ; anc_remove FLAASH执行完毕后，自动关闭生成的辅助数据</span><br><span class="line">    ; anc_delete FLAASH执行完毕后，自动关闭并删除辅助数据</span><br><span class="line">    flaash_obj &#x3D; obj_new(&#39;flaash_batch&#39;, &#x2F;anc_delete)</span><br><span class="line"></span><br><span class="line">    ;设置大量的输入参数</span><br><span class="line">    flaash_obj-&gt;SetProperty, $</span><br><span class="line">      hyper &#x3D; 0, $ ;设置为1，表示高光谱；设置为0，表示多光谱</span><br><span class="line">      ;</span><br><span class="line">      ; FLAASH工程参数----</span><br><span class="line">      radiance_file &#x3D; radiance_file, $</span><br><span class="line">      reflect_file &#x3D; reflect_file, $</span><br><span class="line">      filter_func_filename &#x3D; filter_func_filename, $</span><br><span class="line">      filter_func_file_index &#x3D; 0, $</span><br><span class="line">      water_band_choice &#x3D; 1.13, $</span><br><span class="line">      red_channel &#x3D; 4, $   ;0表示undefined，LC8红波段为第4波段</span><br><span class="line">      green_channel &#x3D; 3, $ ;0表示undefined，LC8绿波段为第3波段</span><br><span class="line">      blue_channel &#x3D; 2, $  ;0表示undefined，LC8蓝波段为第2波段</span><br><span class="line"></span><br><span class="line">      ;水汽反演，没有所需波段，所以设置为0，表示undefined</span><br><span class="line">      ;分别对应Multispectral Setting中Water Retrieval选项卡中的两个参数</span><br><span class="line">      water_retrieval &#x3D; 0, $ ;Water Retrieval参数。0表示No，1表示Yes</span><br><span class="line">      water_abs_channel &#x3D; 0, $</span><br><span class="line">      water_ref_channel &#x3D; 0, $</span><br><span class="line"></span><br><span class="line">      ;气溶胶反演----</span><br><span class="line">      ;对应Multispectral Setting中Kaufman-Tanre Aerosol Retrieval选项卡中的参数</span><br><span class="line">      kt_upper_channel &#x3D; 7, $ ;设置短波红外2（SWIR 2）</span><br><span class="line">      kt_lower_channel &#x3D; 4, $ ;设置红波段（Red）</span><br><span class="line">      kt_cutoff &#x3D; 0.08, $ ;Maximum Upper Channel Reflectance</span><br><span class="line">      kt_ratio &#x3D; 0.500, $ ;Reflectance Ratio</span><br><span class="line">      cirrus_channel &#x3D; 0, $  ;0表示undefined</span><br><span class="line"></span><br><span class="line">      ;前边已经定义</span><br><span class="line">      user_stem_name &#x3D; user_stem_name, $</span><br><span class="line">      modtran_directory &#x3D; modtran_directory, $</span><br><span class="line">      ;</span><br><span class="line">      ; MODTRAN参数---</span><br><span class="line">      visvalue &#x3D; 40.0000, $ ;能见度，默认40km</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">      ;为了进行水汽反演，需要如下3个波段范围中的一个：</span><br><span class="line">      ; 1050-1210nm, 770-870nm, 870-1020nm</span><br><span class="line">      ; 而且要求此范围的波段光谱分辨率最低为15nm</span><br><span class="line">      f_resolution &#x3D; 15.0000, $</span><br><span class="line"></span><br><span class="line">      ;时间信息----</span><br><span class="line">      day &#x3D; day, $</span><br><span class="line">      month &#x3D; month, $</span><br><span class="line">      year &#x3D; year, $</span><br><span class="line">      gmt &#x3D; gmt, $</span><br><span class="line">      latitude &#x3D; latitude, $</span><br><span class="line">      longitude &#x3D; longitude, $</span><br><span class="line">      sensor_altitude &#x3D; 705.0000, $ ;传感器高度</span><br><span class="line">      ground_elevation &#x3D; 0.043, $ ;平均海拔，单位km</span><br><span class="line"></span><br><span class="line">      ;分别对应 Advanced Setting 中的同名参数，默认即可</span><br><span class="line">      view_zenith_angle &#x3D; 180.0000, $</span><br><span class="line">      view_azimuth &#x3D; 0.0000, $</span><br><span class="line"></span><br><span class="line">      ;大气模型：0-SAW；1-MLW；2-U.S. Standard；3-SAS；4-MLS；5-T</span><br><span class="line">      atmosphere_model &#x3D; 4, $</span><br><span class="line">      ;气溶胶模型：0-No Aerosol；1-Rural；2-Maritime；3-Urban；4-Tropospheric</span><br><span class="line">      aerosol_model &#x3D; 3, $</span><br><span class="line"></span><br><span class="line">      ;如下几个参数对应 Advanced Setting同名参数，默认即可。</span><br><span class="line">      multiscatter_model &#x3D; 0, $</span><br><span class="line">      disort_streams &#x3D; 8, $</span><br><span class="line">      co2mix &#x3D; 390.0000, $</span><br><span class="line">      water_column_multiplier &#x3D; 1.0000, $</span><br><span class="line">      ;</span><br><span class="line">      ;图像参数----</span><br><span class="line">      nspatial &#x3D; nspatial, $</span><br><span class="line">      nlines &#x3D; nlines, $</span><br><span class="line">      data_type &#x3D; data_type, $</span><br><span class="line">      margin1 &#x3D; 0, $</span><br><span class="line">      margin2 &#x3D; 0, $</span><br><span class="line">      nskip &#x3D; 0, $</span><br><span class="line">      pixel_size &#x3D; pixel_size, $</span><br><span class="line">      sensor_name &#x3D; &#39;Landsat-8 OLI&#39;, $</span><br><span class="line"></span><br><span class="line">      ;分析参数----</span><br><span class="line">      ;对应Advanced Setting中的 Aerosol Scale Height</span><br><span class="line">      aerosol_scaleht &#x3D; 2.0000, $</span><br><span class="line"></span><br><span class="line">      ;对应Advanced Setting中的 Use Adjacency Correction</span><br><span class="line">      ;中高分辨率设置为1，低分辨率（如Modis）设置为0</span><br><span class="line">      use_adjacency &#x3D; 1, $</span><br><span class="line"></span><br><span class="line">      ;输出缩放系数，输出结果放大了10000倍，变为UINT数据类型。</span><br><span class="line">      ;对应Advanced Setting中的Output Reflectance Scale Factor</span><br><span class="line">      output_scale &#x3D; 10000.0000, $ ;输出结果缩放系数</span><br><span class="line"></span><br><span class="line">      ;对应 Width (number of bands) 参数，多光谱设置0即可。</span><br><span class="line">      polishing_res &#x3D; 0, $</span><br><span class="line"></span><br><span class="line">      ;对应 Aerosol Retrieval 参数。</span><br><span class="line">      ; 0 表示 None；1 表示 2-Band (K-T)；2 表示 2-Band Over Water</span><br><span class="line">      aerosol_retrieval &#x3D; 1, $</span><br><span class="line"></span><br><span class="line">      ;对应FLAASH面板中的 Wavelength Recalibration，多光谱一般为0</span><br><span class="line">      calc_wl_correction &#x3D; 0, $</span><br><span class="line">      reuse_modtran_calcs &#x3D; 0, $</span><br><span class="line">      use_square_slit_function &#x3D; 0, $</span><br><span class="line">      convolution_method &#x3D; &#39;fft&#39;, $</span><br><span class="line"></span><br><span class="line">      ;对应Advanced Setting中的 Use Tiled Processing</span><br><span class="line">      ;1-Yes；0-No</span><br><span class="line">      use_tiling &#x3D; 0, $</span><br><span class="line">      tile_size &#x3D; 1024.0000, $</span><br><span class="line"></span><br><span class="line">      ; Spectral Parameters</span><br><span class="line">      wavelength_units &#x3D; wavelength_units, $</span><br><span class="line">      lambda &#x3D; lambda, $</span><br><span class="line">      fwhm &#x3D; fwhm, $</span><br><span class="line">      input_scale &#x3D; input_scale</span><br><span class="line"></span><br><span class="line">    ;重要！！！！！！重要！！！！！！重要！！！！！</span><br><span class="line">    ;执行FLAASH之前，必须在ENVI中把输入文件关闭</span><br><span class="line">    Raster.Close</span><br><span class="line">    ;开始执行FLAASH</span><br><span class="line">    flaash_obj-&gt;processImage</span><br><span class="line">    ;获取输入输出文件的FID</span><br><span class="line">    flaash_obj-&gt;getResults, rad_fid&#x3D;rad_fid, reflect_fid&#x3D;reflect_fid</span><br><span class="line">  endfor</span><br><span class="line">  e.Close</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-3-遥感影像数据的归一化植被指数（NDVI）计算"><a href="#2-3-遥感影像数据的归一化植被指数（NDVI）计算" class="headerlink" title="2.3 遥感影像数据的归一化植被指数（NDVI）计算"></a>2.3 遥感影像数据的归一化植被指数（NDVI）计算</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line">PRO TEST_NDVI</span><br><span class="line">;测试NDVI功能 调用NDVI_DOIT实现</span><br><span class="line">;测试时间：2020-01-03</span><br><span class="line">;配置环境</span><br><span class="line">COMPILE_OPT IDL2</span><br><span class="line">e &#x3D; ENVI()</span><br><span class="line">;打开影像 获得路径 文件</span><br><span class="line">Fname &#x3D; ENVI_PICKFILE(TITLE&#x3D;&#39;选择影像&#39;,PATH&#x3D;&#39;D:\IDLData\TM5\&#39;,FILTER&#x3D;&#39;*.img&#39;)</span><br><span class="line">;获得R_FID 给NDVI_DOIT传递参数</span><br><span class="line">ENVI_OPEN_FILE,Fname,R_FID&#x3D;fid</span><br><span class="line">print,fid</span><br><span class="line">;判断图像数据是否正确打开</span><br><span class="line">if (fid eq -1) then BEGIN</span><br><span class="line">  print,&#39;error in opening file&#39;,Fname</span><br><span class="line">endif</span><br><span class="line">;环境文件查询</span><br><span class="line">ENVI_FILE_QUERY,fid,DIMS&#x3D;dims</span><br><span class="line">;NDVI设计用于处理TM、MSS、AVHRR、SPOT和AVIRIS数据。以下波段对用于每个不同的数据类型。一定要从每个波段组合中减去1。</span><br><span class="line">;TM波段数值应设置为  Bands&#x3D;[4, 3]</span><br><span class="line">pos &#x3D; [4,3] - 1</span><br><span class="line">print,pos</span><br><span class="line">;输出文件命名与输出文件路径</span><br><span class="line">FName_out&#x3D;ENVI_PICKFILE(TITLE&#x3D;&#39;图像的保存路径&#39;,FILTER&#x3D;&#39;*.img&#39;,&#x2F;OUTPUT)</span><br><span class="line">;调用NDVI_DOIT  o_min使用此关键字指定输出数据最小值</span><br><span class="line">ENVI_DOIT,&#39;NDVI_DOIT&#39;,fid&#x3D;fid,pos&#x3D;pos,DIMS&#x3D;dims,&#x2F;CHECK,o_min&#x3D;0,o_max&#x3D;255,OUT_NAME&#x3D;FName_out,R_FID&#x3D;r_fid</span><br><span class="line">print,&#39;Finish！&#39;</span><br><span class="line">END</span><br></pre></td></tr></table></figure>
+
+<p>程序说明：调用NDVI_DOIT进行归一化植被指数计算。</p>
+<p>NDVI计算流程图</p>
+<img src="/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/NDVI%E8%AE%A1%E7%AE%97.PNG" class>
+
+<h3 id="2-4-遥感影像数据的植被覆盖度指数（VFC）计算"><a href="#2-4-遥感影像数据的植被覆盖度指数（VFC）计算" class="headerlink" title="2.4 遥感影像数据的植被覆盖度指数（VFC）计算"></a>2.4 遥感影像数据的植被覆盖度指数（VFC）计算</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line">pro VFC_Vegetation_coverage2</span><br><span class="line">;植被覆盖指数2</span><br><span class="line">;2020-01-03</span><br><span class="line">;配置环境</span><br><span class="line">  COMPILE_OPT IDL2</span><br><span class="line">  e&#x3D;envi()</span><br><span class="line">  ;输入NDVI影像</span><br><span class="line">  Fname&#x3D;ENVI_PICKFILE(TITLE&#x3D;&#39;输入进行植被覆盖度计算的影像&#39;,FILTER&#x3D;&#39;*.img&#39;)</span><br><span class="line">  ;输出保存影像名称</span><br><span class="line">  Fname_out&#x3D;ENVI_PICKFILE(TITLE&#x3D;&#39;输出影像的文件名&#39;,&#x2F;OUTPUT)</span><br><span class="line">  ;获取NDVI影像</span><br><span class="line">  raster &#x3D; e.OpenRaster(FName)</span><br><span class="line">  ;调用ENVIRasterStatistics(NDVI影像,&#x2F;直方图,)</span><br><span class="line">  stats &#x3D; ENVIRasterStatistics(raster, &#x2F;HISTOGRAMS, $</span><br><span class="line">    HISTOGRAM_NBINS&#x3D;1000)</span><br><span class="line">  ;获取直方图</span><br><span class="line">  hist &#x3D; stats.HISTOGRAMS[0]</span><br><span class="line">  ;设置直方图的参数,获取累计像元个数</span><br><span class="line">  totalCounts &#x3D; TOTAL(hist[&#39;counts&#39;], &#x2F;CUMULATIVE)</span><br><span class="line">  ;计算所占百分比</span><br><span class="line">  totalPercents &#x3D; totalCounts&#x2F;totalCounts[-1]</span><br><span class="line">  ;每5%画一段</span><br><span class="line">  percent&#x3D;0.05</span><br><span class="line">  ;获取置信区间的索引</span><br><span class="line">;获取beginIndex，endIndex</span><br><span class="line">  tmp &#x3D; MIN(totalPercents-percent, beginIndex, &#x2F;ABSOLUTE)</span><br><span class="line">  tmp &#x3D; MIN(totalPercents-(1.0-percent), endIndex, &#x2F;ABSOLUTE)</span><br><span class="line">  ;根据索引计算置信区间最小和最大值</span><br><span class="line">  ;计算植被覆盖指数（公式：VFC &#x3D; (NDVI - NDVIsoil)&#x2F; ( NDVIveg - NDVIsoil) ）</span><br><span class="line">  ;VFC &#x3D; (NDVI - NDVImin)&#x2F; ( NDVImax - NDVImin)</span><br><span class="line">  NDVI_soil &#x3D; hist[&#39;min&#39;]+beginIndex*hist[&#39;binsize&#39;]</span><br><span class="line">  NDVI_veg &#x3D; hist[&#39;min&#39;]+endIndex*hist[&#39;binsize&#39;]</span><br><span class="line">  ;获取NDVI的值</span><br><span class="line">  thisNDVI&#x3D;raster.GetData(BANDS&#x3D;[0])</span><br><span class="line">  ;输入计算植被覆盖度的公式</span><br><span class="line">  ;NDVI&lt;NDVI_SOIL                  NDVI&gt; NDVI_VEG</span><br><span class="line">  result&#x3D;(thisNDVI lt NDVI_soil)*0+(thisNDVI gt NDVI_veg)*1+$</span><br><span class="line">    ;如果(NDVI&gt;&#x3D; NDVI_soil 且 NDVI&lt;&#x3D; NDVI_VEG)为真  就计算(NDVI-SOIL)&#x2F;(VEG - SOIL) </span><br><span class="line">    (thisNDVI ge NDVI_soil and thisNDVI le NDVI_veg)*((thisNDVI-NDVI_soil)&#x2F;(NDVI_veg-NDVI_soil))</span><br><span class="line">  ;设置空间参考</span><br><span class="line">  spatialref &#x3D; raster.SPATIALREF</span><br><span class="line">  ;输出计算所得的图像，设置参数</span><br><span class="line">  newRaster &#x3D; ENVIRaster(result, URI&#x3D;Fname_out,NBANDS&#x3D;1,SPATIALREF&#x3D;spatialref)</span><br><span class="line">  newRaster.Save</span><br><span class="line">  print,&#39;Finish&#39; </span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+<p>程序说明：调用ENVIRasterStatistics获取NDVI影像的亮度值，对其亮度值进行后续计算。</p>
+<p>VFC计算流程图</p>
+<img src="/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/NDVI%E8%AE%A1%E7%AE%97.PNG" class>
+
+
+<h3 id="2-5-遥感影像数据的重分类计算"><a href="#2-5-遥感影像数据的重分类计算" class="headerlink" title="2.5 遥感影像数据的重分类计算"></a>2.5 遥感影像数据的重分类计算</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br></pre></td><td class="code"><pre><span class="line">pro Reclass</span><br><span class="line">;IDL实现重分类，感谢虞雨帆同学提供</span><br><span class="line">;在进行植被覆盖度计算后调用！！选取VC2文件夹中数据</span><br><span class="line">  ;配置环境</span><br><span class="line">  COMPILE_OPT IDL2</span><br><span class="line">  e&#x3D;envi()</span><br><span class="line">  ;打开文件</span><br><span class="line">  FName&#x3D;ENVI_PICKFILE(TITLE&#x3D;&#39;选择影像&#39;,PATH&#x3D;&#39;D:\IDLData\TM5\&#39;,FILTER&#x3D;&#39;*.img&#39;)   </span><br><span class="line">  ;输出文件</span><br><span class="line">  SName&#x3D;ENVI_PICKFILE(TITLE&#x3D;&#39;图像的保存路径&#39;,PATH&#x3D;&#39;D:\IDLData\TM5\&#39;,FILTER&#x3D;&#39;*.img&#39;,&#x2F;OUTPUT)</span><br><span class="line">    ;打开栅格图像</span><br><span class="line">    raster &#x3D; e.OpenRaster(FName)</span><br><span class="line">    ;返回栅格图像的文件ID</span><br><span class="line">    fid&#x3D;ENVIRasterToFID(raster)</span><br><span class="line">    ;返回关于数据文件的信息，包括行数NL和样本数量NS</span><br><span class="line">    ENVI_FILE_QUERY,fid,NS&#x3D;ns,NL&#x3D;nl</span><br><span class="line">    ;获取FVC影像的第一波段</span><br><span class="line">    rastervalue&#x3D;raster.GetData(BANDS&#x3D;[0])</span><br><span class="line">    ;为分类栅格创建数据</span><br><span class="line">    newdata &#x3D; Make_Array(ns,nl,value&#x3D;0,&#x2F;byte)</span><br><span class="line">    ;实现重分类</span><br><span class="line">    for i&#x3D;0,ns-1 do begin</span><br><span class="line">      for k&#x3D;0,nl-1 do begin</span><br><span class="line">        ;若FVC值大于0小于0.1，则赋值为1.即为等级I</span><br><span class="line">        if (rastervalue[i,k] GE 0 and rastervalue[i,k] LE 0.1)then begin</span><br><span class="line">          newdata[i,k]&#x3D;1</span><br><span class="line">          ;若FVC值大于0.1小于0.3，则赋值为2.即为等级II</span><br><span class="line">        endif else if(rastervalue[i,k] GT 0.1 and rastervalue[i,k] LE 0.3)then begin</span><br><span class="line">          newdata[i,k]&#x3D;2</span><br><span class="line">          ;若FVC值大于0.3小于0.5，则赋值为3.即为等级III</span><br><span class="line">        endif else if(rastervalue[i,k] GT 0.3 and rastervalue[i,k] LE 0.5)then begin</span><br><span class="line">          newdata[i,k]&#x3D;3</span><br><span class="line">          ;若FVC值大于0.5小于0.7，则赋值为4.即为等级IV</span><br><span class="line">        endif else if(rastervalue[i,k] GT 0.5 and rastervalue[i,k] LE 0.7)then begin</span><br><span class="line">          newdata[i,k]&#x3D;4</span><br><span class="line">          ;若FVC值大于0.7小于1，则赋值为5.即为等级V</span><br><span class="line">        endif else if(rastervalue[i,k] GT 0.7 and rastervalue[i,k] LE 1)then begin</span><br><span class="line">          newdata[i,k]&#x3D;5</span><br><span class="line">          ;若FVC值空值赋值为-1</span><br><span class="line">        endif else begin</span><br><span class="line">          newdata[i,k]&#x3D;-1</span><br><span class="line">        endelse</span><br><span class="line">      endfor</span><br><span class="line">    endfor</span><br><span class="line">    ;获取原FVC图像的坐标系</span><br><span class="line">    spatialref&#x3D;raster.SPATIALREF</span><br><span class="line">    ;为重分类后的影像生成新的栅格影像</span><br><span class="line">    newRaster &#x3D; ENVIRaster(newdata, URI&#x3D;SName,NBANDS&#x3D;1,DATA_IGNORE_VALUE&#x3D;-1,SPATIALREF&#x3D;spatialref)</span><br><span class="line">    ;保存影像</span><br><span class="line">    newRaster.Save</span><br><span class="line">  ;运行成功</span><br><span class="line">  print,&#39;Run successfully&#39;</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+<p>重分类标准：1级：0—0.1 、2级：0.1—0.3、3级：0.3—0.5、4级：0.5—0.7、5级：0.7—1.0</p>
+<p>程序说明：首先获取像元的亮度值，对其进行重分类计算。</p>
+<p>重分类流程图：</p>
+<img src="/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E9%87%8D%E5%88%86%E7%B1%BB1.PNG" class>
+
+
+<h3 id="2-6-遥感影像的裁剪"><a href="#2-6-遥感影像的裁剪" class="headerlink" title="2.6 遥感影像的裁剪"></a>2.6 遥感影像的裁剪</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br></pre></td><td class="code"><pre><span class="line">pro ImageClip_Shp</span><br><span class="line">  ;2019&#x2F;11&#x2F;22</span><br><span class="line">  ;裁剪功能</span><br><span class="line">  ;设置环境</span><br><span class="line">  COMPILE_OPT IDL2</span><br><span class="line">  ENVI  ;打开经典窗口</span><br><span class="line">  ;错误提示</span><br><span class="line">  CATCH,Error_Status</span><br><span class="line">  Error_msg &#x3D; &#39;运行过程中出现错误：&#39;</span><br><span class="line">  if (Error_Status ne 0)then begin</span><br><span class="line">    tmp &#x3D; DIALOG_MESSAGE(Error_msg+STRING(13B)+!ERROR_STATE.msg,$</span><br><span class="line">      &#x2F;error,TITLE&#x3D;&#39;错误提示&#39;)</span><br><span class="line">    RETURN</span><br><span class="line">  ENDIF</span><br><span class="line">;打开遥感影像数据</span><br><span class="line">  Fname &#x3D; ENVI_PICKFILE(TITLE &#x3D; &#39;输入待裁剪的遥感图像&#39;,FILTER&#x3D;&#39;*.img&#39;)</span><br><span class="line">  ENVI_OPEN_FILE,Fname,R_FID&#x3D;fid</span><br><span class="line">  if (fid EQ -1)THEN BEGIN</span><br><span class="line">    print,&#39;Error opening file&#39;,Fname</span><br><span class="line">    RETURN</span><br><span class="line">  ENDIF</span><br><span class="line">  ;获取头文件信息</span><br><span class="line">ENVI_FILE_QUERY,fid,DESCRIP&#x3D;descrip,DIMS&#x3D;dims,NS&#x3D;ns,NB&#x3D;nb,NL&#x3D;nl,BNAMES&#x3D;bnames,$   </span><br><span class="line">FILE_TYPE&#x3D;filetype,SENSOR_TYPE&#x3D;sensortype,WAVELENGTH_UNITS&#x3D;wavelength_units,$</span><br><span class="line">    WL&#x3D;wl,INTERLEAVE&#x3D;interleave</span><br><span class="line">  ;读取输入shp矢量文件</span><br><span class="line">  Fname_Shp &#x3D; ENVI_PICKFILE(TITLE&#x3D;&#39;请输入裁剪的矢量&#39;,FILTER&#x3D;&#39;*.shp&#39;)</span><br><span class="line">  ;创建IDLffShape类的实例</span><br><span class="line">  objshape &#x3D; OBJ_NEW(&#39;IDLffShape&#39;,Fname_Shp)</span><br><span class="line">  help,objshape</span><br><span class="line">  ;获取矢量文件中的实体个数</span><br><span class="line">  objshape-&gt;GetProperty,N_ENTITIES&#x3D;nEntities</span><br><span class="line">  if nEntities gt 1 then begin</span><br><span class="line">    print,&#39;该矢量文件中包含多个形状&#39;,Fname_Shp</span><br><span class="line">    RETURN</span><br><span class="line">  endif</span><br><span class="line">  ;判断实体的类型是否为多边形</span><br><span class="line">  i &#x3D; [0]</span><br><span class="line">  entity &#x3D; objshape-&gt;GetEntity(i)</span><br><span class="line">  help,entity</span><br><span class="line">  ;判断是否为多边形</span><br><span class="line">  if (entity.shape_type ne 5)then begin</span><br><span class="line">    print,&#39;当前矢量文件不是多边形类型&#39;</span><br><span class="line">    RETURN</span><br><span class="line">  endif</span><br><span class="line">  ;获取多边形的顶点坐标</span><br><span class="line">  PolyVertices &#x3D; *(entity.VERTICES)</span><br><span class="line">  print,entity.N_VERTICES</span><br><span class="line">  print,PolyVertices</span><br><span class="line">  ;转换为图像文件坐标</span><br><span class="line">  ENVI_CONVERT_FILE_COORDINATES,fid,XF,YF,PolyVertices[0,*],PolyVertices[1,*]</span><br><span class="line">  print,XF</span><br><span class="line">  print,YF</span><br><span class="line">  ;创建关注区ROI</span><br><span class="line">  roi_id &#x3D; ENVI_CREATE_ROI(COLOR&#x3D;4,NS&#x3D;ns,NL&#x3D;nl)</span><br><span class="line">  ENVI_DEFINE_ROI,roi_id,&#x2F;POLYGON,XPTS&#x3D;REFORM(XF),YPTS&#x3D;REFORM(YF)</span><br><span class="line">  ;获取多边形的最大外接矩形</span><br><span class="line">  ;矩形的左上角、右下角的顶点坐标</span><br><span class="line">  XMin &#x3D; ROUND(min(XF))</span><br><span class="line">  XMax &#x3D; ROUND(max(XF))</span><br><span class="line">  YMin &#x3D; ROUND(min(YF))</span><br><span class="line">  YMax &#x3D; ROUND(max(YF))</span><br><span class="line">  print,&#39;Xmin&#39;,Xmin</span><br><span class="line">  print,&#39;Xmax&#39;,Xmax</span><br><span class="line">  print,&#39;Ymin&#39;,Ymin</span><br><span class="line">  print,&#39;Ymax&#39;,Ymax</span><br><span class="line">  ;释放内存</span><br><span class="line">  objshape-&gt;DestroyEntity,entity</span><br><span class="line">  ;销毁对象</span><br><span class="line">  OBJ_DESTROY,objshape</span><br><span class="line">  ;确定裁剪后输出图像的大小</span><br><span class="line">  XMin &#x3D; XMin&gt;0</span><br><span class="line">  XMax &#x3D; XMax&lt;NS-1</span><br><span class="line">  YMin &#x3D; YMin&gt;0</span><br><span class="line">  YMax &#x3D; YMax&lt;NL-1</span><br><span class="line">  out_dims &#x3D; [-1L,XMin,XMax,YMin,YMax]</span><br><span class="line">  ;创建掩膜 ENVI_MASK_DOIT函数不标蓝 但是可以执行</span><br><span class="line">  ENVI_MASK_DOIT,AND_OR &#x3D; 1,&#x2F;IN_MEMORY,$</span><br><span class="line">    roi_id &#x3D; roi_id,NS &#x3D; ns,NL &#x3D; nl,&#x2F;INSIDE,R_FID&#x3D;m_fid</span><br><span class="line">  pos &#x3D; LINDGEN(nb)</span><br><span class="line">  m_pos &#x3D; [0]</span><br><span class="line">  Fname_Sav &#x3D; ENVI_PICKFILE(TITLE&#x3D;&#39;保存裁剪后的遥感图像文件&#39;,$</span><br><span class="line">    FILTER&#x3D;&#39;*.img&#39;,&#x2F;OUTPUT)</span><br><span class="line">  ENVI_MASK_APPLY_DOIT,FID&#x3D;fid,POS&#x3D;pos,DIMS&#x3D;out_dims,$</span><br><span class="line">    M_FID&#x3D;m_fid,M_POS&#x3D;m_pos,VALUE&#x3D;0,IN_MEMORY&#x3D;0,OUT_NAME&#x3D;Fname_Sav</span><br><span class="line">  ;释放掩膜文件</span><br><span class="line">  ENVI_FILE_MNG,ID&#x3D;M_FID,&#x2F;REMOVE</span><br><span class="line">  print,&#39;Finish!&#39;</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+
+<p>程序说明：调用ENVI_MASK_DOIT获取掩膜创建ROI区域对遥感影像进行裁剪。注意裁剪过程中，掩膜数据与遥感影像数据的投影坐标保持一致，否则将会报错。</p>
+<h3 id="2-7-遥感影像的叠加分析与重分类"><a href="#2-7-遥感影像的叠加分析与重分类" class="headerlink" title="2.7 遥感影像的叠加分析与重分类"></a>2.7 遥感影像的叠加分析与重分类</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br></pre></td><td class="code"><pre><span class="line">pro ReClass2</span><br><span class="line">;进行栅格计算器操作，计算变化图层 在VC2文件夹中选择</span><br><span class="line">;2020-01-06</span><br><span class="line">;配置环境</span><br><span class="line">COMPILE_OPT IDL2</span><br><span class="line">e &#x3D; envi()</span><br><span class="line">;打开第一个栅格文件</span><br><span class="line">Fname1 &#x3D; ENVI_PICKFILE(TITLE&#x3D;&#39;选择第一幅影像&#39;,PATH&#x3D;&#39;D:\IDLData\TM5\&#39;,FILTER&#x3D;&#39;*.img&#39;)</span><br><span class="line">;打开第二个栅格文件</span><br><span class="line">Fname2 &#x3D; ENVI_PICKFILE(TITLE&#x3D;&#39;选择第二幅影像&#39;,PATH&#x3D;&#39;D:\IDLData\TM5\&#39;,FILTER&#x3D;&#39;*.img&#39;)</span><br><span class="line">;选择保存的路径</span><br><span class="line">Sname &#x3D; ENVI_PICKFILE(TITLE&#x3D;&#39;图像的保存路径&#39;,PATH&#x3D;&#39;D:\IDLData\TM5\&#39;,FILTER&#x3D;&#39;*.img&#39;,&#x2F;OUTPUT)</span><br><span class="line"></span><br><span class="line">;打开栅格图像</span><br><span class="line">raster &#x3D; e.OpenRaster(Fname1)</span><br><span class="line">raster2 &#x3D; e.OpenRaster(Fname2)</span><br><span class="line">;返回栅格图像的文件ID</span><br><span class="line">fid&#x3D;ENVIRasterToFID(raster)</span><br><span class="line">fid2&#x3D;ENVIRasterToFID(raster2)</span><br><span class="line">;返回关于数据文件的信息，包括行数NL和样本数量NS</span><br><span class="line">ENVI_FILE_QUERY,fid,NS&#x3D;ns,NL&#x3D;nl</span><br><span class="line">ENVI_FILE_QUERY,fid2,NS&#x3D;ns,NL&#x3D;nl</span><br><span class="line">;获取FVC影像的第一波段</span><br><span class="line">rastervalue&#x3D;raster.GetData(BANDS&#x3D;[0])</span><br><span class="line">rastervalue2&#x3D;raster2.Getdata(BANDS&#x3D;[0])</span><br><span class="line"></span><br><span class="line">;新建栅格创建数据</span><br><span class="line">newdata &#x3D; Make_Array(ns,nl,value&#x3D;-1,&#x2F;BYTE)</span><br><span class="line">;实现栅格计算</span><br><span class="line">for i&#x3D;0,ns-1 do begin</span><br><span class="line">  for k&#x3D;0,nl-1 do begin</span><br><span class="line">    ;赋值给新建栅格：</span><br><span class="line">    ;若极显著减小&lt;-0.3</span><br><span class="line">    if ( (rastervalue2[i,k]-rastervalue[i,k]) LE (-0.3) ) then begin </span><br><span class="line">      newdata[i,k]&#x3D;1</span><br><span class="line">      ;print,&#39;执行！&#39;</span><br><span class="line">      ;显著减小-0.3&lt;x&lt;-0.2</span><br><span class="line">    endif else if ( (rastervalue2[i,k]-rastervalue[i,k]) GT (-0.3) and (rastervalue2[i,k]-rastervalue[i,k]) LE (-0.2) )then begin  </span><br><span class="line">      newdata[i,k]&#x3D;2</span><br><span class="line">      ;弱显著减小-0.2&lt;x&lt;-0.1</span><br><span class="line">    endif else if ( (rastervalue2[i,k]-rastervalue[i,k]) GT (-0.2) and (rastervalue2[i,k]-rastervalue[i,k]) LE (-0.1) )then begin </span><br><span class="line">      newdata[i,k]&#x3D;3</span><br><span class="line">      ;稳定区-0.1&lt;x&lt;0.1</span><br><span class="line">    endif else if ( (rastervalue2[i,k]-rastervalue[i,k]) GT (-0.1) and (rastervalue2[i,k]-rastervalue[i,k]) LE 0.1 )then begin</span><br><span class="line">      newdata[i,k]&#x3D;4</span><br><span class="line">      ;弱显著增加0.1&lt;x&lt;0.2</span><br><span class="line">    endif else if ( (rastervalue2[i,k]-rastervalue[i,k]) GT 0.1 and (rastervalue2[i,k]-rastervalue[i,k]) LE 0.2 )then begin</span><br><span class="line">      newdata[i,k]&#x3D;5</span><br><span class="line">      ;显著增加0.2&lt;x&lt;0.3</span><br><span class="line">    endif else if ( (rastervalue2[i,k]-rastervalue[i,k]) GT 0.2 and (rastervalue2[i,k]-rastervalue[i,k]) LE 0.3 )then begin</span><br><span class="line">      newdata[i,k]&#x3D;6</span><br><span class="line">      ;极显著增加x&gt;0.3</span><br><span class="line">    endif else if ( (rastervalue2[i,k]-rastervalue[i,k]) GT 0.3 )then begin</span><br><span class="line">      newdata[i,k]&#x3D;7</span><br><span class="line">    endif else begin ;空值赋-1</span><br><span class="line">      newdata[i,k]&#x3D;-1</span><br><span class="line">    endelse</span><br><span class="line"> endfor   </span><br><span class="line">endfor</span><br><span class="line"> ;获取原FVC图像的坐标系</span><br><span class="line">spatialref&#x3D;raster.SPATIALREF</span><br><span class="line">;为重分类后的影像生成新的栅格影像</span><br><span class="line">newRaster &#x3D; ENVIRaster(newdata, URI&#x3D;SName,NBANDS&#x3D;1,DATA_IGNORE_VALUE&#x3D;-1,SPATIALREF&#x3D;spatialref)</span><br><span class="line">;保存影像</span><br><span class="line">newRaster.Save</span><br><span class="line">;运行成功</span><br><span class="line">print,&#39;Run successfully&#39;</span><br><span class="line">;显示数据</span><br><span class="line">View1 &#x3D; e.GetView()</span><br><span class="line">Layer1 &#x3D; View1.Createlayer(newRaster)</span><br><span class="line">;弹窗提示存储完成</span><br><span class="line">result &#x3D; DIALOG_MESSAGE(&#39;Run successfully&#39;,&#x2F;INFORMATION)</span><br><span class="line">end</span><br></pre></td></tr></table></figure>
+<p>程序说明：通过进行栅格计算与重分类，对遥感影像矩形分级处理，得到植被覆盖度分级变化图层。</p>
+<p>栅格计算公式为：影像2-影像1</p>
+<p>分级标准：1级：&lt;-0.3 、2级：-0.3—-0.2、3级：-0.2—-0.1、4级：-0.1—0.1、5级：0.1—0.2、6级：0.2—0.3、7级：&gt;0.3</p>
+<p>叠加分析流程图：</p>
+<img src="/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E6%A0%85%E6%A0%BC%E8%AE%A1%E7%AE%97%E4%B8%8E%E9%87%8D%E5%88%86%E7%B1%BB.PNG" class>
+
+
+<h2 id="三、成果图"><a href="#三、成果图" class="headerlink" title="三、成果图"></a>三、成果图</h2><img src="/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/%E9%87%8D%E5%88%86%E7%B1%BB%E7%BB%93%E6%9E%9C%E5%9B%BE1.PNG" class>
+
+<h2 id="四、总结"><a href="#四、总结" class="headerlink" title="四、总结"></a>四、总结</h2><p>1.对植被覆盖度面积变化过程中应先将水体部分剔除。</p>
+<p>2.没有将IDL程序进行集成，所有程序均需要手动选取数据。</p>
+<p>3.代码的可读性较差，变量命名含义不明确。</p>
+<p>4.大气校正部分可以改进为Flaash模块更为准确（已添加）。</p>
+<p>在今后的编程中需要掌握面向对象的编程思路，将功能模块化，便于在主程序中集中调用，方便程序的运行与他人的阅读。</p>
+<p>致谢：</p>
+<p>首先，感谢老师本学期的耐心教导，带领我们初步接触了IDL编程，让我们使用IDL编程实现了部分ENVI软件的功能，使我们可以在ENVI中进行批量处理操作变得更加便捷。在实验课堂中，老师教导我们要多查IDL的帮助功能，为我们的IDL实践打下基础。也为我们今后的论文撰写打下软件操作的基础。</p>
+<p>感谢虞雨帆同学在我实验遇到困难时候提供的代码，让我可以通过参考他们已经实现的代码对我自己的代码进行完善与改进。</p>
+<p>感谢张华同学在我代码遇到bug时对我的指导，帮助我发现程序问题并将程序修改正确。</p>
+
+      
+		
+		<!-- 增加版权声明 -->
+
+		
+		
+		  <div class="declare">
+			<strong>本文作者：</strong>
+			
+			  David LIU
+			
+			<br>
+			<strong>本文链接：</strong>
+			<a rel="license" href="http://yoursite.com/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/">http://yoursite.com/2020/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/</a>
+			<br>
+			<strong>版权声明：</strong>
+			本作品采用
+			<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>
+			进行许可。转载请注明出处！
+			
+			  <br>
+			  <a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/></a>
+			
+		  </div>
+		
+
+		<!-- 增加版权声明结束 -->
+		
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    <div class="reward-box-item">
+                      <img class="reward-img" src="/assets/Alipay.jpg">
+                      <span class="reward-type">支付宝</span>
+                    </div>
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -321,19 +476,163 @@
 		</ul>
 	</div>
 
-          
+      
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://LIU-DAWEIAAAA.github.io/0/06/09/IDL%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91%E5%AE%9E%E8%B7%B5/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
+  
+<nav id="article-nav">
+  
+    <a href="/2020/06/10/%E9%AB%98%E7%BA%A7%E5%9C%B0%E7%90%86%E4%BF%A1%E6%81%AF%E7%B3%BB%E7%BB%9F%E8%AF%BE%E7%A8%8B%E5%AE%9E%E9%AA%8C/" id="article-nav-newer" class="article-nav-link-wrap">
+      <i class="icon-circle-left"></i>
+      <div class="article-nav-title">
+        
+          高级地理信息系统课程实验
+        
+      </div>
+    </a>
   
   
-    </div></section>
+    <a href="/2020/04/10/QQ%E9%9F%B3%E4%B9%90%E7%BD%91%E9%A1%B5%E7%89%88-%E4%B8%AA%E4%BA%BA%E7%BB%83%E4%B9%A0/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">QQ音乐网页版(个人练习)</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+        <div class="toc-container tooltip-left">
+            <i class="icon-font icon-category"></i>
+            <div class="tooltip tooltip-east">
+                <span class="tooltip-item">
+                </span>
+                <span class="tooltip-content">
+                    <div class="toc-article">
+                    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#IDL二次开发实践"><span class="toc-number">1.</span> <span class="toc-text">IDL二次开发实践</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#一、实践选题介绍"><span class="toc-number">1.1.</span> <span class="toc-text">一、实践选题介绍</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1-研究主题"><span class="toc-number">1.1.1.</span> <span class="toc-text">1.1 研究主题</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-2-研究内容"><span class="toc-number">1.1.2.</span> <span class="toc-text">1.2 研究内容</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-3-数据来源"><span class="toc-number">1.1.3.</span> <span class="toc-text">1.3 数据来源</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-4-实验技术路线"><span class="toc-number">1.1.4.</span> <span class="toc-text">1.4 实验技术路线</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#二、IDL代码编程实现"><span class="toc-number">1.2.</span> <span class="toc-text">二、IDL代码编程实现</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#2-1-遥感影像数据进行辐射定标（同时完成波段合成）"><span class="toc-number">1.2.1.</span> <span class="toc-text">2.1 遥感影像数据进行辐射定标（同时完成波段合成）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-2-遥感影像数据的大气校正（QUAC）"><span class="toc-number">1.2.2.</span> <span class="toc-text">2.2 遥感影像数据的大气校正（QUAC）</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#2-2-1-遥感影像的大气校正（FLAASH）"><span class="toc-number">1.2.2.1.</span> <span class="toc-text">2.2.1 遥感影像的大气校正（FLAASH）</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-3-遥感影像数据的归一化植被指数（NDVI）计算"><span class="toc-number">1.2.3.</span> <span class="toc-text">2.3 遥感影像数据的归一化植被指数（NDVI）计算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-4-遥感影像数据的植被覆盖度指数（VFC）计算"><span class="toc-number">1.2.4.</span> <span class="toc-text">2.4 遥感影像数据的植被覆盖度指数（VFC）计算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-5-遥感影像数据的重分类计算"><span class="toc-number">1.2.5.</span> <span class="toc-text">2.5 遥感影像数据的重分类计算</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-6-遥感影像的裁剪"><span class="toc-number">1.2.6.</span> <span class="toc-text">2.6 遥感影像的裁剪</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-7-遥感影像的叠加分析与重分类"><span class="toc-number">1.2.7.</span> <span class="toc-text">2.7 遥感影像的叠加分析与重分类</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#三、成果图"><span class="toc-number">1.3.</span> <span class="toc-text">三、成果图</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#四、总结"><span class="toc-number">1.4.</span> <span class="toc-text">四、总结</span></a></li></ol></li></ol>
+                    </div>
+                </span>
+            </div>
+        </div>
+        
+    </div>
+</aside>
+
+
+
+  
+  
   
 
-    
+  
+
+  
+
+  
+
+
+
+  
+      <section id="comments" class="comments">
+        <style>
+          .comments{margin:30px;padding:10px;background:#fff}
+          @media screen and (max-width:800px){.comments{margin:auto;padding:10px;background:#fff}}
+        </style>
+        
+
+<div id="vcomment" class="comment"></div>
+<!--����js����<script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":160,"height":348,"hOffset":210,"vOffset":-60},"mobile":{"show":true},"react":null,"opacity":0.7});</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":160,"height":348,"hOffset":210,"vOffset":-60},"mobile":{"show":true},"react":null,"opacity":0.7});</script><script src="/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/live2dw/assets/hijiki.model.json"},"display":{"position":"left","width":160,"height":348,"hOffset":210,"vOffset":-60},"mobile":{"show":true},"react":null,"opacity":0.7});</script></body>֮ǰ���뼴��-->
+<!--Leancloud ������:-->
+<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<!--Valine �ĺ��Ĵ����-->
+<script src="//cdn.jsdelivr.net/npm/valine/dist/Valine.min.js"></script>
+<script src="https://cdnjs.loli.net/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    var notify = 'true' == true ? true : false;
+    var verify = 'true' == true ? true : false;
+    new Valine({
+        av: AV,
+        el: '#vcomment',
+        notify: notify,
+        app_id: "ayIybcKtDURqMg91YFCU24Ht-gzGzoHsz",
+        app_key: "4L5lTkne2q7XrRVXSBnaxNNS",
+        placeholder: "ヾﾉ≧∀≦)o来啊，快活啊!",
+        avatar:"identicon",
+    });
+</script>
+
+
+    </section>
+  
 
 
           </div>
@@ -382,8 +681,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
